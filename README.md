@@ -3,10 +3,35 @@
 ## CSS
 
 ```
+p {
+  color: blue;
+}
+
 body {
     background-color: purple;
     color: aqua;
 }
+
+```
+
+### Box model
+
+``` css
+.caption {
+  padding: 10px;
+  border: 5px solid blue;
+  margin: 5px;
+}
+```
+
+### FlexBox
+
+``` css
+.parent {
+   display: flex;
+   justify-content: center;  // flex-start, flex-end, space-between, space-around
+}
+
 
 ```
 

@@ -21,6 +21,7 @@ body {
   padding: 10px;
   border: 5px solid blue;
   margin: 5px;
+  background-color: blue;
 }
 ```
 

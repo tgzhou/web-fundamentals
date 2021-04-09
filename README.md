@@ -97,7 +97,7 @@ $(".change").click(function)() {
 });
 ```
 
-## Unix 7.4
+## Unit 7.4
 
 ### Guided Practice
 

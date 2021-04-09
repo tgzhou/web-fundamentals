@@ -106,6 +106,6 @@ $(".ask").click(function() {
     let question = $(".speech").val();
     $(".speech-bubble").text(question);
     // Add your code below:
-	$(".history").append("<p>"+question);
+    $(".history").append("<p>"+question);
 });
 ```

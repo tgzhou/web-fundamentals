@@ -97,9 +97,9 @@ $(".change").click(function)() {
 });
 ```
 
-## Guided Practice
+## Unix 7.4
 
-### 7.4
+### Guided Practice
 
 ``` js
 $(".ask").click(function() {
@@ -108,4 +108,22 @@ $(".ask").click(function() {
     // Add your code below:
     $(".history").append("<p>"+question);
 });
+```
+
+### Independent Lab
+
+``` js
+$(".to-pack-button").click(function(){
+    let packingItem = $(".to-pack-input").val();
+    console.log(packingItem);
+    $(".packing-list").append("<li>" + "I'm going to pack item " + packingItem + "</li>");
+    $("img").attr("src",  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnkntY6ZfhKPx8fKD5-va0utgWqXkcdbssOQ&usqp=CAU");
+});
+
+$(".to-class-button").click(function(){
+    let courseItem = $(".to-class-input").val();
+    console.log(courseItem);
+    $(".course-list").append("<li>" + courseItem + "</li>");
+});
+
 ```

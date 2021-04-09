@@ -54,6 +54,13 @@ $(".button").click(function() {
 });
 ```
 
+```
+$(".ask").click(function() {
+    let question = $(".speech").val(); 
+    $(".speech-bubble").text(question);
+});
+```
+
 ### Aminations
 
 ```
@@ -74,6 +81,6 @@ $("div").fadeToggle()
 
 ```
 $(".change").click(function)() {
-	$("body").css("color", "aqua");
+    $("body").css("color", "aqua");
 });
 ```

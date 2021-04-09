@@ -96,3 +96,16 @@ $(".change").click(function)() {
     $("body").css("color", "aqua");
 });
 ```
+
+## Guided Practice
+
+### 7.4
+
+``` js
+$(".ask").click(function() {
+    let question = $(".speech").val();
+    $(".speech-bubble").text(question);
+    // Add your code below:
+	$(".history").append("<p>"+question);
+});
+```

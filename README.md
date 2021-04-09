@@ -38,6 +38,7 @@ body {
 
 ## jQuery
 
+### Evert types
 
 There are many types of events jQuery recognizes.  Here are a few:
 - click
@@ -54,6 +55,8 @@ $(".button").click(function() {
 });
 ```
 
+### Reading input
+
 ```
 $(".ask").click(function() {
     let question = $(".speech").val(); 
@@ -61,6 +64,15 @@ $(".ask").click(function() {
 });
 ```
 
+
+### Using `.append()`
+
+``` js
+$(".add").click(function(){
+    let newMessage = $("input").val();
+    $(".messages").append("<p>" + newMessage + "</p>");
+});
+```
 ### Aminations
 
 ```

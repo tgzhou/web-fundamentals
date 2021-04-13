@@ -1,5 +1,12 @@
 # Web Fundamentals
 
+## HTML
+
+- Anchor tag and `href` attribute
+``` html
+<a href="https://codenation.org"Code Nation</a>
+```
+
 ## CSS
 
 ```

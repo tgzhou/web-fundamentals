@@ -36,7 +36,7 @@ body {
 
 ```
 
-## jQuery
+## jQuery / JavaScript
 
 ### Evert types
 
@@ -53,6 +53,22 @@ $(".button").click(function() {
    $(".pic").hide();   // show()
    $(".feedback").text("This is a Title");
 });
+```
+
+### Aminations
+
+```
+$("div").show()
+$("div").hide()
+$("div").toggle()
+
+$("div").slideDown()
+$("div").slideUp()
+$("div").slideToggle()
+
+$("div").fadeIn()
+$("div").fadeOut()
+$("div").fadeToggle()
 ```
 
 ### Reading and displaying input
@@ -73,21 +89,7 @@ $(".add").click(function(){
     $(".messages").append("<p>" + newMessage + "</p>");
 });
 ```
-### Aminations
 
-```
-$("div").show()
-$("div").hide()
-$("div").toggle()
-
-$("div").slideDown()
-$("div").slideUp()
-$("div").slideToggle()
-
-$("div").fadeIn()
-$("div").fadeOut()
-$("div").fadeToggle()
-```
 
 ### CSS Actions
 

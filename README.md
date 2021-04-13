@@ -55,7 +55,7 @@ $(".button").click(function() {
 });
 ```
 
-### Reading input
+### Reading and displaying input
 
 ```
 $(".ask").click(function() {
@@ -65,7 +65,7 @@ $(".ask").click(function() {
 ```
 
 
-### Using `.append()`
+#### Using `.append()`
 
 ``` js
 $(".add").click(function(){

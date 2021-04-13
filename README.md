@@ -12,7 +12,7 @@
 - Image tag and `src` attribute
 
 ``` html
-<img src="https://i.ytimg.com/hqdefault.jpg">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnkntY6ZfhKPx8fKD5-va0utgWqXkcdbssOQ&usqp=CAU">
 ```
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnkntY6ZfhKPx8fKD5-va0utgWqXkcdbssOQ&usqp=CAU">

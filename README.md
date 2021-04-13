@@ -9,6 +9,14 @@
 
 <a href="https://codenation.org">Code Nation</a>
 
+- Image tag and `src` attribute
+
+``` html
+<img src="https://i.ytimg.com/hqdefault.jpg">
+```
+
+<img src="https://i.ytimg.com/hqdefault.jpg">
+
 
 ## CSS
 

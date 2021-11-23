@@ -21,16 +21,15 @@
 ## CSS
 
 ```
-p {
-  color: blue;
-}
-
 body {
     background-color: purple;
     color: aqua;
-    font-family: cursive;
 }
 
+p {
+  color: blue;
+  font-family: cursive;
+}
 ```
 
 ### Box model

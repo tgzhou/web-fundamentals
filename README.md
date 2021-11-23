@@ -28,6 +28,7 @@ p {
 body {
     background-color: purple;
     color: aqua;
+    font-family: cursive;
 }
 
 ```
